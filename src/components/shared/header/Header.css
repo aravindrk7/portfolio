@@ -1,0 +1,31 @@
+.header{
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 25px;
+}
+
+/* Navbar */
+.navbar{
+    display: flex;
+    z-index: 100;
+}
+.navbar__route{
+    text-decoration: none;
+    height: 100%;
+    padding: 10px;
+    margin: 0 10px;
+    cursor: pointer;
+    font-family: poppins-medium;
+    color: var(--text-secondary);
+    transition: color var(--speed) ease-in-out;
+}
+.navbar__route:hover{
+    color: var(--text-primary);
+}
+.is-active-route{
+    color: var(--text-primary);
+    border-bottom: 3px solid var(--primary-color);
+    font-family: poppins-bold;
+}

@@ -1,0 +1,20 @@
+.verticalTitle {
+    width: 100%;
+    height: 100%;
+    /* position: absolute; */
+    /* right: 10%; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.verticalTitle p {
+    width: 100px;
+    /* background: pink; */
+    text-transform: uppercase;
+    font-size: 50px;
+    font-family: poppins-black;
+    writing-mode: vertical-rl;
+    text-orientation: upright;
+    color: rgb(151, 248, 203,.5);
+    z-index: 10000;
+}

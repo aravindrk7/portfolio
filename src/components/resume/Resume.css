@@ -1,0 +1,17 @@
+.resume {
+    height: 100%;
+    display: flex;
+}
+.resume__content {
+    height: 100%;
+    width: 70%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 25px;
+}
+
+.resume__title{
+    height: 100%;
+    width: 30%;
+}
