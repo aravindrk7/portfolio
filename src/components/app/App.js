@@ -4,7 +4,7 @@ import './App.css';
 import { Switch, Route, Redirect } from "react-router-dom";
 import NoMatch from '../noMatch/NoMatch';
 import About from '../about/About';
-import Portfolio from '../portfolio/Portfolio';
+import Works from '../works/Works';
 import Resume from '../resume/Resume';
 import Contact from '../contact/Contact';
 
@@ -25,7 +25,7 @@ function App() {
               <About />
             </Route>
             <Route path="/works">
-              <Portfolio />
+              <Works />
             </Route>
             <Route path="/resume">
               <Resume />

@@ -1,8 +1,8 @@
-.portfolio {
+.works {
     height: 100%;
     display: flex;
 }
-.portfolio__content {
+.works__content {
     height: 100%;
     width: 70%;
     display: flex;
@@ -11,7 +11,7 @@
     padding: 25px;
 }
 
-.portfolio__title{
+.works__title{
     height: 100%;
     width: 30%;
 }
