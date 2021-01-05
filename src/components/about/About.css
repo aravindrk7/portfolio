@@ -6,14 +6,22 @@
     height: 100%;
     width: 70%;
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
     padding: 25px;
 }
+.about__text-top {
+    width: 600px;
+    font-family: poppins-medium;
+    color:var(--text-tertiary);
+    font-size: 30px;
+    margin-bottom: 30px;
+}
 .about__text {
     width: 600px;
-    background-color: rgba(255, 255, 255, .15); 
-    backdrop-filter: blur(5px);
+    line-height: 30px;
+    font-size: 14px;
 }
 .about__title{
     height: 100%;

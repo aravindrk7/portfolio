@@ -10,6 +10,11 @@
     align-items: center;
     padding: 25px;
 }
+.resume__content img{
+    /* width: 600px; */
+    height: 100%;
+    box-shadow: var(--box-shadow);
+}
 
 .resume__title{
     height: 100%;

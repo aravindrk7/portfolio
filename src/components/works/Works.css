@@ -3,15 +3,60 @@
     display: flex;
 }
 .works__content {
-    height: 100%;
+    height: calc(100% - 25px);
     width: 70%;
-    display: flex;
+    /* display: flex;
     justify-content: center;
-    align-items: center;
+    align-items: center; */
+    overflow-y: auto;
+    overflow-x: hidden;
     padding: 25px;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(350px, 1fr));
+    grid-template-rows: repeat(auto-fill, 400px);
+    grid-gap: 5px;
+    /* background: red; */
 }
 
-.works__title{
+.works_imgContainer{
+    width: 100%;
+    height: 100%;
+    cursor: pointer;
+    position: relative;
+    transition: var(--speed) ease-in-out;
+    /* overflow-x: hidden; */
+}
+.works_imgHover{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    opacity: 0;
+    background: rgba(0,0,0,.5);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 25px;
+    color: #fff;
+    font-family: poppins-medium;
+    transition: var(--speed) ease-in-out;
+
+}
+.works_imgContainer:hover .works_imgHover{
+    /* left: 50%; */
+    opacity: 1;
+}
+
+.works__content img {
+    width:100%;
+    height: 100%;
+    min-height: 400px;
+}
+
+
+.works__title {
     height: 100%;
     width: 30%;
 }
