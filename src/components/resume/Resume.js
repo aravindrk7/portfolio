@@ -9,9 +9,9 @@ function Resume() {
             <section className="resume__content">
                 {/* <img src={resume} alt=""/> */}
             </section>
-            <section className="resume__title">
+            {/* <section className="resume__title">
                 <VerticalTitle title="Resume" />
-            </section>
+            </section> */}
         </div>
     )
 }

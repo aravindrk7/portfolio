@@ -10,9 +10,9 @@ function Home() {
             <section className="home__content">
                 <Intro />
             </section>
-            <section className="home__title">
+            {/* <section className="home__title">
                 <VerticalTitle title="Aravind" />
-            </section>
+            </section> */}
             <img className="home__photo" src={photo} alt="" />
             <div class="custom-shape-divider-bottom-1609669025">
                 <svg data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 120" preserveAspectRatio="none">

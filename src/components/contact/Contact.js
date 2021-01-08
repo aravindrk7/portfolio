@@ -8,9 +8,9 @@ function Contact() {
             <section className="contact__content">
                 contact
             </section>
-            <section className="contact__title">
+            {/* <section className="contact__title">
                 <VerticalTitle title="Contact" />
-            </section>
+            </section> */}
         </div>
     )
 }

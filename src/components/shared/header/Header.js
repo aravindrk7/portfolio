@@ -1,5 +1,5 @@
 import React from 'react';
-import Logo from '../../logo/Logo';
+import Logo from './Logo';
 import Connect from './Connect';
 import './Header.css';
 import Navbar from './Navbar';

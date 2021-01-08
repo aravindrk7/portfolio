@@ -1,29 +1,30 @@
 .about {
     height: 100%;
     display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.about__title{
+    height: 100%;
+    user-select: none;
 }
 .about__content {
-    height: 100%;
-    width: 70%;
+    height: auto;
+    width: 800px;
+
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    padding: 25px;
+    padding: 50px 100px;
 }
 .about__text-top {
-    width: 600px;
     font-family: poppins-medium;
     color:var(--text-tertiary);
     font-size: 30px;
     margin-bottom: 30px;
 }
 .about__text {
-    width: 600px;
     line-height: 30px;
     font-size: 14px;
-}
-.about__title{
-    height: 100%;
-    width: 30%;
 }
