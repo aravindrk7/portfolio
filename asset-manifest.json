@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/portfolio/static/css/main.e73b9100.chunk.css",
-    "main.js": "/portfolio/static/js/main.95467f8d.chunk.js",
-    "main.js.map": "/portfolio/static/js/main.95467f8d.chunk.js.map",
+    "main.js": "/portfolio/static/js/main.93927d7d.chunk.js",
+    "main.js.map": "/portfolio/static/js/main.93927d7d.chunk.js.map",
     "runtime-main.js": "/portfolio/static/js/runtime-main.8fed2963.js",
     "runtime-main.js.map": "/portfolio/static/js/runtime-main.8fed2963.js.map",
     "static/js/2.c69de52c.chunk.js": "/portfolio/static/js/2.c69de52c.chunk.js",
@@ -17,7 +17,7 @@
     "static/media/haloween.4fc519ab.jpg": "/portfolio/static/media/haloween.4fc519ab.jpg",
     "static/media/invitation.02023512.jpg": "/portfolio/static/media/invitation.02023512.jpg",
     "static/media/lion-apple.fc9c2274.jpg": "/portfolio/static/media/lion-apple.fc9c2274.jpg",
-    "static/media/logo.59cff7e7.PNG": "/portfolio/static/media/logo.59cff7e7.PNG",
+    "static/media/logo-1.f53f6a39.png": "/portfolio/static/media/logo-1.f53f6a39.png",
     "static/media/logo1.955528a6.jpg": "/portfolio/static/media/logo1.955528a6.jpg",
     "static/media/logo2.59cff7e7.PNG": "/portfolio/static/media/logo2.59cff7e7.PNG",
     "static/media/photo.b8d072ae.png": "/portfolio/static/media/photo.b8d072ae.png",
@@ -30,6 +30,6 @@
     "static/js/runtime-main.8fed2963.js",
     "static/js/2.c69de52c.chunk.js",
     "static/css/main.e73b9100.chunk.css",
-    "static/js/main.95467f8d.chunk.js"
+    "static/js/main.93927d7d.chunk.js"
   ]
 }
