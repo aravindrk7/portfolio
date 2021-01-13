@@ -18,7 +18,7 @@ import logo2 from './../../Images/photoshop/logo2.PNG';
 
 function Works() {
     return (
-        <div className="works">
+        <section className="works">
             <section className="works__content">
                 <section className="works__web">
                     <h1>Web Development</h1>
@@ -99,10 +99,7 @@ function Works() {
                     </div>
                 </section>
             </section>
-            {/* <section className="works__title">
-                <VerticalTitle title="Works" />
-            </section> */}
-        </div>
+        </section>
     )
 }
 

@@ -1,4 +1,5 @@
 .home {
+    position: relative;
     height: 100%;
     display: flex;
     user-select: none;
@@ -13,19 +14,18 @@
     padding: 25px;
 }
 
-.home__title{
+.home__title {
     height: 100%;
     width: 30%;
 }
 
 .home__photo {
     position: absolute;
-    height: calc(100% - 50px);
+    height: 100%;
     left: 70%;
     top: 50%;
     transform: translate(-50%, -50%);
 }
-
 
 /* Intro */
 .intro {
@@ -48,22 +48,6 @@
     width: 300px;
     margin: 10px 0;
     font-size: 15px;
-}
-
-.intro__button {
-    margin-top: 10px;
-    font-family: poppins-medium;
-    text-transform: uppercase;
-    color: #fff;
-    background: var(--primary-color);
-    padding: 10px 25px;
-    border-radius: 3px;
-    cursor: pointer;
-    transition: var(--speed) ease-in-out;
-}
-
-.intro__button:hover {
-    background: var(--primary-color-hover);
 }
 
 .custom-shape-divider-bottom-1609669025 {

@@ -1,11 +1,10 @@
 .app {
-  width: 100vw;
-  height: 100vh;
-  overflow: hidden;
+  width: 100%;
   background: #fff;
-  /* background: linear-gradient(to right, #fff 70%, var(--primary-color) 30%); */
-}
-main {
-  height: calc(100vh - 60px);
 }
 
+.pageContainer {
+  height: 100vh;
+  overflow-x: hidden;
+  overflow-y: auto;
+}

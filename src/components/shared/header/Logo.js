@@ -1,13 +1,13 @@
 import React from 'react';
 import './Header.css';
-import logo from './../../../Images/logo.PNG';
-import { NavLink } from 'react-router-dom';
+import logo from './../../../Images/logo-1.png';
+import { Link } from 'react-scroll';
 
 function Logo() {
     return (
-        <NavLink to="home" className="logo">
+        <Link to="home" spy={true} className="logo">
             <img src={logo} alt="Aravind"/>
-        </NavLink>
+        </Link>
     )
 }
 

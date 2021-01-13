@@ -1,44 +1,27 @@
 import Header from '../shared/header/Header';
 import Home from '../home/Home';
 import './App.css';
-import { Switch, Route, Redirect } from "react-router-dom";
-import NoMatch from '../noMatch/NoMatch';
+// import { Switch, Route, Redirect } from "react-router-dom";
 import About from '../about/About';
 import Works from '../works/Works';
-import Resume from '../resume/Resume';
 import Contact from '../contact/Contact';
 
 function App() {
   return (
     <div className="app">
-      <header>
-        <Header />
-        <main>
-          <Switch >
-            <Route exact path="/">
-              <Redirect to="/home" />
-            </Route>
-            <Route path="/home">
-              <Home />
-            </Route>
-            <Route path="/about">
-              <About />
-            </Route>
-            <Route path="/works">
-              <Works />
-            </Route>
-            <Route path="/resume">
-              <Resume />
-            </Route>
-            <Route path="/contact">
-              <Contact />
-            </Route>
-            <Route path="*">
-              <NoMatch />
-            </Route>
-          </Switch>
-        </main>
-      </header>
+      <Header />
+      <div className="pageContainer" id="home">
+        <Home />
+      </div>
+      <div className="pageContainer" id="about">
+        <About />
+      </div>
+      <div className="pageContainer" id="works">
+        <Works />
+      </div>
+      <div className="pageContainer" id="contact">
+        <Contact />
+      </div>
     </div>
   );
 }
