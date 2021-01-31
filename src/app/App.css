@@ -1,0 +1,9 @@
+.app {
+  width: 100%;
+  background: #fff;
+}
+
+.pageContainer {
+  overflow-x: hidden;
+  overflow-y: hidden;
+}

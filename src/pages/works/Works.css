@@ -1,0 +1,131 @@
+.works {
+    user-select: none;
+    min-height: 100vh;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    background: #f4f7f6;
+    --height: 300px;
+}
+
+.works__content {
+    padding: 25px;
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(350px, 1fr));
+    grid-auto-rows: 400px;
+    /* grid-template-rows: repeat(auto-fill, 400px); */
+    grid-gap: 35px;
+}
+
+.works__myWork {
+    background: #fff;
+    position: relative;
+    transition: var(--speed) ease-in-out;
+    /* margin-right: 5px; */
+    box-shadow: var(--box-shadow);
+    /* overflow: hidden; */
+}
+.works__myWorkImageContainer {
+    height: var(--height);
+    overflow: hidden;
+}
+.works__myWorkImage {
+    width: 100%;
+    /* height: 300px; */
+    height: var(--height);
+    transition: 0.5s ease-in-out;
+}
+.works__myWorkImageHover {
+    cursor: pointer;
+    position: absolute;
+    width: 100%;
+    height: var(--height);
+    top: 37.5%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    opacity: 0;
+    background: rgba(0, 0, 0, 0.5);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 20px;
+    color: #fff;
+    text-align: center;
+    font-family: poppins-medium;
+    transition: var(--speed) ease-in-out;
+}
+.works__myWork:hover .works__myWorkImageHover {
+    opacity: 1;
+}
+
+.works__myWorkImageHover > a{
+    margin-right: 10px;
+}
+.works__icon {
+    display: flex;
+    align-items: center;
+    font-size: 30px;
+    transition: var(--speed) ease-in-out;
+    color: #fff;
+}
+
+.works__icon:hover {
+    color: var(--primary-color);
+}
+.works__myWork:hover .works__myWorkImage {
+    transform: scale(1.1);
+}
+
+.works__info {
+    height: calc(100% - var(--height));
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 15px;
+}
+.works__infoHeader {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.works__infoHeader > p {
+    font-size: 16px;
+    font-family: poppins-medium;
+}
+.works__infoHeader > span {
+    font-size: 13px;
+}
+
+.works__infoFooter {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.works__infoFooter > div {
+    display: flex;
+    align-items: center;
+}
+.works__infoFooter > div > img {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    margin-right: 10px;
+}
+.works__infoFooter > div > span {
+    font-size: 13px;
+}
+/* .works__like{
+    display: flex;
+    align-items: center;
+}
+.works__like > span{
+    margin-right: 5px;
+    color: var(--text-secondary);
+}
+.works__like > div{
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+
+} */

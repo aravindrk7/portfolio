@@ -1,4 +1,4 @@
-@font-face {
+/* @font-face {
   font-family: poppins;
   src: url(fonts/Poppins-Regular.ttf);
 }
@@ -13,6 +13,25 @@
 @font-face {
   font-family: poppins-black;
   src: url(fonts/Poppins-Black.ttf);
+} */
+
+
+
+@font-face {
+  font-family: poppins;
+  src: url(fonts/GoogleSans-Regular.ttf);
+}
+@font-face {
+  font-family: poppins-medium;
+  src: url(fonts/GoogleSans-Medium.ttf);
+}
+@font-face {
+  font-family: poppins-bold;
+  src: url(fonts/GoogleSans-Bold.ttf);
+}
+@font-face {
+  font-family: poppins-black;
+  src: url(fonts/GoogleSans-Bold.ttf);
 }
 :root {
   --primary-color: #29d882;
@@ -31,7 +50,7 @@
   --border-dark: 1px solid gainsboro;
   --border-dashed: 1px dashed #c0c0c0;
   --border-radius: 3px;
-  --speed: 500ms;
+  --speed: 250ms;
 
   --green: rgb(0, 177, 0);
   --blue: rgb(49, 60, 214);
@@ -47,7 +66,7 @@
   border: none;
   outline: none;
   font-family: poppins;
-  scroll-behavior: smooth;
+  /* scroll-behavior: smooth; */
 }
 
 ::-webkit-scrollbar {
@@ -68,7 +87,7 @@
 ::-webkit-scrollbar-thumb:hover {
   background: #555;
 }
-
+/* 
 h1 {
   color: var(--text-primary);
   font-size: 14px;
@@ -79,5 +98,14 @@ h2 {
   font-size: 14px;
   color: #888;
   font-family: poppins-bold;
-}
+} */
 
+.titleContainer{
+  width: 100%;
+  user-select: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 80px;
+  margin-bottom: 50px;
+}

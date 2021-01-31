@@ -1,0 +1,14 @@
+.contact {
+    height: 100vh;
+    display: flex;
+    user-select: none;
+    flex-direction: column;
+}
+.contact__content {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}

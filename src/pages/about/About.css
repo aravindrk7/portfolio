@@ -1,0 +1,38 @@
+.about {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.about__content {
+    max-width: 900px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    /* padding: 0px 250px; */
+}
+
+.about__text-top {
+    width: 100%;
+
+    color:var(--text-secondary);
+    font-size: 25px;
+    margin-bottom: 30px;
+}
+.about__text {
+    width: 100%;
+
+    line-height: 30px;
+    font-size: 15px;
+    color:var(--text-secondary);
+    
+}
+.about__buttonContainer{
+    margin-top: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}

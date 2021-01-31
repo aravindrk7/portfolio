@@ -1,0 +1,28 @@
+.slider {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.slider__items {
+    overflow-x: auto;
+    /* display: flex; */
+    /* justify-content: space-between; */
+    /* align-items: center; */
+    scroll-behavior: smooth;
+
+}
+.slider__items::-webkit-scrollbar {
+    display: none;
+}
+
+.slider__leftArrow,
+.slider__rightArrow {
+    margin: 0 20px;
+    stroke: #333;
+    transition: 0.3s ease-in-out;
+    cursor: pointer;
+}
+.slider__leftArrow:hover,
+.slider__rightArrow:hover {
+    stroke: var(--primary-color);
+}
