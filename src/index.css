@@ -15,8 +15,6 @@
   src: url(fonts/Poppins-Black.ttf);
 } */
 
-
-
 @font-face {
   font-family: poppins;
   src: url(fonts/GoogleSans-Regular.ttf);
@@ -38,11 +36,11 @@
   --secondary-color: #baf3d7;
   --text-primary: #090909;
   --text-secondary: #88898b;
+  --text-tertiary: #b6b6b6;
   --primary-color-hover: #64f1ad;
 
   --bg-primary: #fff;
   --bg-secondary: #f6f7f9;
-  --text-tertiary: #b6b6b6;
 
   --box-shadow: 0 1px 1px rgba(0, 0, 0, 0.1), 0 2px 2px rgba(0, 0, 0, 0.1), 0 4px 4px rgba(0, 0, 0, 0.1);
   --nav-size: 240px;
@@ -100,7 +98,7 @@ h2 {
   font-family: poppins-bold;
 } */
 
-.titleContainer{
+.titleContainer {
   width: 100%;
   user-select: none;
   display: flex;

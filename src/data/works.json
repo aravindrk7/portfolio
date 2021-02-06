@@ -4,7 +4,7 @@
         "title": "Work Tracker",
         "category": "Web Development",
         "started_at": "January 26,2021",
-        "image": "/images/web/Capture1.PNG",
+        "image": "/images/web/workTracker.jpg",
         "link": "https://polar-dawn-50426.herokuapp.com/",
         "likes": 0
     },
@@ -13,7 +13,7 @@
         "title": "Project Management Tool",
         "category": "Web Development",
         "started_at": "January 26,2021",
-        "image": "/images/web/Capture2.PNG",
+        "image": "/images/web/Capture1.PNG",
         "link": null,
         "likes": 0
     },

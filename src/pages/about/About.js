@@ -22,7 +22,9 @@ function About() {
                     Have very good knowledge of React, Angular 2+, javascript, HTML and CSS/SCSS. Love applying responsive designs to websites and am more interested in implementing creative ideas on websites.
                 </p>
                 <div className="about__buttonContainer">
-                    <Button text="Download Resume" />
+                    <a href={process.env.PUBLIC_URL + "/files/resume.docx"} download="aravind_resume">
+                        <Button text="Download Resume" />
+                    </a>
                 </div>
             </section>
         </section>

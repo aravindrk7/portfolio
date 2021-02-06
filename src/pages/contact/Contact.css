@@ -1,14 +1,78 @@
 .contact {
-    height: 100vh;
+    min-height: 100vh;
+    height: auto;
     display: flex;
     user-select: none;
     flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 .contact__content {
+    max-width: 1000px;
     height: 100%;
     width: 100%;
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
     align-items: center;
+}
+.contact__form {
+    height: 500px;
+    width: 60%;
+    margin-right: 50px;
+}
+.contact__form textarea,
+.contact__form input {
+    border: 1px solid gainsboro;
+    width: 100%;
+    min-height: 40px;
+    padding: 5px 15px;
+    resize: none;
+    margin-bottom: 30px;
+}
+.contact__form textarea {
+    height: 100px;
+}
+.contact__field {
+    display: flex;
     flex-direction: column;
+}
+.contact__label {
+    margin-bottom: 5px;
+    color: var(--text-secondary);
+    font-size: 13px;
+}
+
+/* Contact Details */
+.contact__details {
+    height: 500px;
+    width: 40%;
+}
+.contact__details > div {
+    display: flex;
+    align-items: center;
+    margin-bottom: 30px;
+}
+.contact__icon {
+    font-size: 35px;
+    margin-right: 30px;
+    color: var(--text-secondary);
+}
+.contact__details > div > div {
+    display: flex;
+    /* align-items: center; */
+    flex-direction: column;
+}
+.contact__details > div > div > p {
+    display: flex;
+    align-items: center;
+    color: var(--text-primary);
+    margin-bottom: 6px;
+    font-size: 17px;
+    font-family: poppins-medium;
+}
+.contact__details > div > div > span {
+    display: flex;
+    align-items: center;
+    font-size: 14px;
+    color: var(--text-secondary);
 }
