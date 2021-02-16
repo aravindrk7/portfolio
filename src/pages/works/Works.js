@@ -1,11 +1,14 @@
-import React from 'react';
+import React, { useContext } from 'react';
 import './Works.css';
 import worksData from './../../data/works.json';
 import Title from '../../components/title/Title';
 import { FiExternalLink } from "react-icons/fi";
 import { FiEye } from "react-icons/fi";
+import { FiGithub } from "react-icons/fi";
+import PopupContext from './../../contexts/PopupContext';
 
 function Works() {
+    const { image, setImage } = useContext(PopupContext);
     // const likeProject = (id) => {
     //     console.log(id);
     // };
@@ -24,14 +27,24 @@ function Works() {
                 {worksData?.map(work => (
                     <div className="works__myWork" key={work.id}>
                         <div className="works__myWorkImageContainer">
-                            <img className="works__myWorkImage" src={process.env.PUBLIC_URL + work.image} alt={work.title} />
+                            <img className="works__myWorkImage" src={process.env.PUBLIC_URL + work.image.thumbnail} alt={work.title} />
                         </div>
                         <div className="works__myWorkImageHover">
                             {work.category === 'Web Development'
-                                && <a href={work.link} target="blank">
-                                    <FiExternalLink className="works__icon" onClick={() => openWebsite(work.link)} />
-                                </a>}
-                            <FiEye className="works__icon" onClick={() => expandImage()} />
+                                && <>
+                                    <a href={work.link} target="blank" className="works__myWorkImageHoverContent">
+                                        <FiExternalLink className="works__icon" onClick={() => openWebsite(work.link)} />
+                                        <p>Website</p>
+                                    </a>
+                                    <a href={work.gitLink} target="blank" className="works__myWorkImageHoverContent">
+                                        <FiGithub className="works__icon" onClick={() => openWebsite(work.gitLink)} />
+                                        <p>Code</p>
+                                    </a>
+                                </>}
+                            <div className="works__myWorkImageHoverContent" onClick={() => setImage(work.image.original)}>
+                                <FiEye className="works__icon" onClick={() => expandImage()} />
+                                <p>View</p>
+                            </div>
                         </div>
                         <div className="works__info">
                             <div className="works__infoHeader">

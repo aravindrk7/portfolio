@@ -4,8 +4,12 @@
         "title": "Work Tracker",
         "category": "Web Development",
         "started_at": "January 26,2021",
-        "image": "/images/web/workTracker.jpg",
+        "image": {
+            "original": "/images/original/workTracker.jpg",
+            "thumbnail": "/images/web/workTracker.jpg"
+        },
         "link": "https://polar-dawn-50426.herokuapp.com/",
+        "gitLink": "https://github.com/aravindrk7/work-tracker",
         "likes": 0
     },
     {
@@ -13,8 +17,12 @@
         "title": "Project Management Tool",
         "category": "Web Development",
         "started_at": "January 26,2021",
-        "image": "/images/web/Capture1.PNG",
+        "image": {
+            "original": "/images/original/projectManagementTool.jpg",
+            "thumbnail": "/images/web/projectManagementTool.jpg"
+        },
         "link": null,
+        "gitLink": "https://github.com/aravindrk7/project-management-tool",
         "likes": 0
     },
     {
@@ -22,8 +30,12 @@
         "title": "MadeUp UI",
         "category": "Web Development",
         "started_at": "January 23,2021",
-        "image": "/images/web/Capture3.PNG",
+        "image": {
+            "original": "/images/original/madeUp.jpg",
+            "thumbnail": "/images/web/madeUp.jpg"
+        },
         "link": null,
+        "gitLink": "https://github.com/aravindrk7/made-up-UI",
         "likes": 0
     },
     {
@@ -31,8 +43,12 @@
         "title": "Chat Application",
         "category": "Web Development",
         "started_at": "January 26,2021",
-        "image": "/images/web/Capture4.PNG",
+        "image": {
+            "original": "/images/original/chatApp.jpg",
+            "thumbnail": "/images/web/chatApp.jpg"
+        },
         "link": null,
+        "gitLink": "https://github.com/aravindrk7/chat-application",
         "likes": 0
     },
     {
@@ -40,7 +56,10 @@
         "title": "Invitation",
         "category": "Photoshop",
         "started_at": "January 26,2021",
-        "image": "/images/photoshop/invitation.jpg",
+        "image": {
+            "original": "/images/original/invitation.jpg",
+            "thumbnail": "/images/photoshop/invitation.jpg"
+        },
         "link": null,
         "likes": 0
     },
@@ -49,7 +68,10 @@
         "title": "Dramatic",
         "category": "Photoshop",
         "started_at": "January 26,2021",
-        "image": "/images/photoshop/Dramatic.jpg",
+        "image": {
+            "original": "/images/original/Dramatic.jpg",
+            "thumbnail": "/images/photoshop/Dramatic.jpg"
+        },
         "link": null,
         "likes": 0
     },
@@ -58,43 +80,70 @@
         "title": "Haloween",
         "category": "Photoshop",
         "started_at": "January 26,2021",
-        "image": "/images/photoshop/haloween.jpg",
+        "image": {
+            "original": "/images/original/haloween.jpg",
+            "thumbnail": "/images/photoshop/haloween.jpg"
+        },
         "link": null,
         "likes": 0
     },
     {
         "id": 8,
-        "title": "Apple",
+        "title": "Space",
         "category": "Photoshop",
         "started_at": "January 26,2021",
-        "image": "/images/photoshop/lion-apple.jpg",
+        "image": {
+            "original": "/images/original/space.jpg",
+            "thumbnail": "/images/photoshop/space.jpg"
+        },
         "link": null,
         "likes": 0
     },
     {
         "id": 9,
-        "title": "Resume",
+        "title": "Apple",
         "category": "Photoshop",
         "started_at": "January 26,2021",
-        "image": "/images/photoshop/resume.jpg",
+        "image": {
+            "original": "/images/original/lion-apple.jpg",
+            "thumbnail": "/images/photoshop/lion-apple.jpg"
+        },
         "link": null,
         "likes": 0
     },
     {
         "id": 10,
-        "title": "IE Logo Redesign",
+        "title": "Resume",
         "category": "Photoshop",
         "started_at": "January 26,2021",
-        "image": "/images/photoshop/logo1.jpg",
+        "image": {
+            "original": "/images/original/resume.jpg",
+            "thumbnail": "/images/photoshop/resume.jpg"
+        },
         "link": null,
         "likes": 0
     },
     {
         "id": 11,
+        "title": "IE Logo Redesign",
+        "category": "Photoshop",
+        "started_at": "January 26,2021",
+        "image": {
+            "original": "/images/photoshop/logo1.jpg",
+            "thumbnail": "/images/photoshop/logo1.jpg"
+        },
+        "link": null,
+        "likes": 0
+    },
+    {
+        "id": 12,
         "title": "My Logo",
         "category": "Photoshop",
         "started_at": "January 26,2021",
-        "image": "/images/photoshop/logo2.PNG",
+        "image": {
+            "original": "/images/photoshop/logo2.PNG",
+            "thumbnail": "/images/photoshop/logo2.PNG"
+        },
         "link": null,
         "likes": 0
     }

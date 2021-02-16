@@ -3,7 +3,7 @@
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding: 0 25px;
+    padding: 0 50px;
     user-select: none;
     z-index: 1001;
     position: fixed;
@@ -20,14 +20,13 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    width: 80px;
-    height: 80px;
+    height: 70px;
     cursor: pointer;
     transition: var(--speed) ease-in-out;
     margin-left: -25px;
 }
 .logo img:hover {
-    transform: RotateY(180deg);
+    transform: translateY(5px);
 }
 
 /* Navbar */
