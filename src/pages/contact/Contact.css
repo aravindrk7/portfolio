@@ -6,6 +6,7 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    padding: 50px;
 }
 .contact__content {
     max-width: 1000px;
@@ -18,7 +19,7 @@
 .contact__form {
     height: 500px;
     width: 60%;
-    margin-right: 50px;
+    margin-right: 100px;
 }
 .contact__form textarea,
 .contact__form input {
@@ -75,4 +76,17 @@
     align-items: center;
     font-size: 14px;
     color: var(--text-secondary);
+}
+
+@media only screen and (max-width: 940px) {
+    .contact__content {
+        flex-direction: column;
+    }
+    .contact__form {
+        width: 100%;
+        margin-right: 0;
+    }
+    .contact__details {
+        width: 100%;
+    }
 }

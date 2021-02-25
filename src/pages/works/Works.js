@@ -9,14 +9,8 @@ import PopupContext from './../../contexts/PopupContext';
 
 function Works() {
     const { image, setImage } = useContext(PopupContext);
-    // const likeProject = (id) => {
-    //     console.log(id);
-    // };
     const openWebsite = (link) => {
         console.log(link);
-    };
-    const expandImage = () => {
-        console.log("Expand Image");
     };
     return (
         <section className="works">
@@ -42,7 +36,7 @@ function Works() {
                                     </a>
                                 </>}
                             <div className="works__myWorkImageHoverContent" onClick={() => setImage(work.image.original)}>
-                                <FiEye className="works__icon" onClick={() => expandImage()} />
+                                <FiEye className="works__icon" />
                                 <p>View</p>
                             </div>
                         </div>

@@ -3,9 +3,9 @@
         "id": 1,
         "title": "Work Tracker",
         "category": "Web Development",
-        "started_at": "January 26,2021",
+        "started_at": "September 9, 2020",
         "image": {
-            "original": "/images/original/workTracker.jpg",
+            "original": "/images/original/workTracker.JPG",
             "thumbnail": "/images/web/workTracker.jpg"
         },
         "link": "https://polar-dawn-50426.herokuapp.com/",
@@ -16,10 +16,10 @@
         "id": 2,
         "title": "Project Management Tool",
         "category": "Web Development",
-        "started_at": "January 26,2021",
+        "started_at": "October 16, 2020",
         "image": {
-            "original": "/images/original/projectManagementTool.jpg",
-            "thumbnail": "/images/web/projectManagementTool.jpg"
+            "original": "/images/original/projectManagementTool.JPG",
+            "thumbnail": "/images/web/projectManagementTool.JPG"
         },
         "link": null,
         "gitLink": "https://github.com/aravindrk7/project-management-tool",
@@ -29,10 +29,10 @@
         "id": 3,
         "title": "MadeUp UI",
         "category": "Web Development",
-        "started_at": "January 23,2021",
+        "started_at": "January 23, 2021",
         "image": {
-            "original": "/images/original/madeUp.jpg",
-            "thumbnail": "/images/web/madeUp.jpg"
+            "original": "/images/original/madeUp.JPG",
+            "thumbnail": "/images/web/madeUp.JPG"
         },
         "link": null,
         "gitLink": "https://github.com/aravindrk7/made-up-UI",
@@ -42,10 +42,10 @@
         "id": 4,
         "title": "Chat Application",
         "category": "Web Development",
-        "started_at": "January 26,2021",
+        "started_at": "April 15, 2020",
         "image": {
-            "original": "/images/original/chatApp.jpg",
-            "thumbnail": "/images/web/chatApp.jpg"
+            "original": "/images/original/chatApp.JPG",
+            "thumbnail": "/images/web/chatApp.JPG"
         },
         "link": null,
         "gitLink": "https://github.com/aravindrk7/chat-application",
@@ -55,7 +55,7 @@
         "id": 5,
         "title": "Invitation",
         "category": "Photoshop",
-        "started_at": "January 26,2021",
+        "started_at": "February 18, 2018",
         "image": {
             "original": "/images/original/invitation.jpg",
             "thumbnail": "/images/photoshop/invitation.jpg"
@@ -67,9 +67,9 @@
         "id": 6,
         "title": "Dramatic",
         "category": "Photoshop",
-        "started_at": "January 26,2021",
+        "started_at": "July 4, 2020",
         "image": {
-            "original": "/images/original/Dramatic.jpg",
+            "original": "/images/original/dramatic.jpg",
             "thumbnail": "/images/photoshop/Dramatic.jpg"
         },
         "link": null,
@@ -79,7 +79,7 @@
         "id": 7,
         "title": "Haloween",
         "category": "Photoshop",
-        "started_at": "January 26,2021",
+        "started_at": "July 19, 2020",
         "image": {
             "original": "/images/original/haloween.jpg",
             "thumbnail": "/images/photoshop/haloween.jpg"
@@ -91,7 +91,7 @@
         "id": 8,
         "title": "Space",
         "category": "Photoshop",
-        "started_at": "January 26,2021",
+        "started_at": "June 28, 2020",
         "image": {
             "original": "/images/original/space.jpg",
             "thumbnail": "/images/photoshop/space.jpg"
@@ -103,7 +103,7 @@
         "id": 9,
         "title": "Apple",
         "category": "Photoshop",
-        "started_at": "January 26,2021",
+        "started_at": "May 6, 2018",
         "image": {
             "original": "/images/original/lion-apple.jpg",
             "thumbnail": "/images/photoshop/lion-apple.jpg"
@@ -115,7 +115,7 @@
         "id": 10,
         "title": "Resume",
         "category": "Photoshop",
-        "started_at": "January 26,2021",
+        "started_at": "September 4, 2018",
         "image": {
             "original": "/images/original/resume.jpg",
             "thumbnail": "/images/photoshop/resume.jpg"
@@ -127,7 +127,7 @@
         "id": 11,
         "title": "IE Logo Redesign",
         "category": "Photoshop",
-        "started_at": "January 26,2021",
+        "started_at": "November 5, 2018",
         "image": {
             "original": "/images/photoshop/logo1.jpg",
             "thumbnail": "/images/photoshop/logo1.jpg"
@@ -139,7 +139,7 @@
         "id": 12,
         "title": "My Logo",
         "category": "Photoshop",
-        "started_at": "January 26,2021",
+        "started_at": "January 8, 2021",
         "image": {
             "original": "/images/photoshop/logo2.PNG",
             "thumbnail": "/images/photoshop/logo2.PNG"

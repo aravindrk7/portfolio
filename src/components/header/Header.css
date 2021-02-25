@@ -91,3 +91,17 @@
 .connect__icon:last-child {
     margin-right: 0px;
 }
+/* Menu */
+.header__menu {
+    display: none;
+}
+
+@media only screen and (max-width: 700px) {
+    .navbar,
+    .connect {
+        display: none;
+    }
+    .header__menu {
+        display: block;
+    }
+}

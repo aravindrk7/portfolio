@@ -73,8 +73,9 @@
 .works__myWorkImageHoverContent:last-child {
     margin-right: 0;
 }
-/* .works__myWorkImageHover > a {
-} */
+.works__myWorkImageHoverContent:hover .works__icon{
+    color: var(--primary-color);
+}
 .works__icon {
     display: flex;
     align-items: center;
@@ -84,9 +85,6 @@
     margin-bottom: 5px;
 }
 
-.works__icon:hover {
-    color: var(--primary-color);
-}
 .works__myWork:hover .works__myWorkImage {
     transform: scale(1.1);
 }
@@ -143,3 +141,16 @@
     cursor: pointer;
 
 } */
+
+@media only screen and (max-width: 850px) {
+    .works__content {
+        grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+    }
+    
+}
+@media only screen and (max-width: 400px) {
+    .works__content {
+        grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+    }
+    
+}

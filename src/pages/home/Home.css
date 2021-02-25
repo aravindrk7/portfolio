@@ -49,7 +49,6 @@
     width: 300px;
     margin: 10px 0;
     font-size: 15px;
-    /* font-family: poppins-medium; */
     color: var(--text-secondary);
 }
 
@@ -72,4 +71,34 @@
 
 .custom-shape-divider-bottom-1609669025 .shape-fill {
     fill: var(--secondary-color);
+}
+
+/* Responsive */
+@media only screen and (max-width: 1200px) {
+    .home__content {
+        /* text-align: center; */
+        width: 100%;
+    }
+    .home__photo {
+        display: none;
+    }
+    .intro > p {
+        width: 100%;
+    }
+}
+@media only screen and (max-width: 580px) {
+    .intro{
+        text-align: center;
+    }
+    .intro > div {
+        font-size: 35px;
+        margin-top: 0;
+    }
+}
+@media only screen and (max-width: 400px) {
+ 
+    .intro > div {
+        font-size: 28px;
+        margin-top: 0;
+    }
 }
