@@ -146,5 +146,70 @@
         },
         "link": null,
         "likes": 0
+    },
+    {
+        "id": 13,
+        "title": "Minesweeper",
+        "category": "game",
+        "started_at": "November 4, 2017",
+        "image": {
+            "original": "/images/original/minesweeper.JPG",
+            "thumbnail": "/images/game/minesweeper.PNG"
+        },
+        "link": "https://aravindrk7.github.io/Mine-Sweeper/",
+        "gitLink": "https://github.com/aravindrk7/Mine-Sweeper",
+        "likes": 0
+    },
+    {
+        "id": 14,
+        "title": "Snake Game",
+        "category": "game",
+        "started_at": "December 23, 2017",
+        "image": {
+            "original": "/images/original/snake.JPG",
+            "thumbnail": "/images/game/snake.PNG"
+        },
+        "link": "https://aravindrk7.github.io/Snake-Game/",
+        "gitLink": "https://github.com/aravindrk7/Snake-Game",
+        "likes": 0
+    },
+    {
+        "id": 15,
+        "title": "Tetrix",
+        "category": "game",
+        "started_at": "August 5, 2018",
+        "image": {
+            "original": "/images/original/tetrix.JPG",
+            "thumbnail": "/images/game/tetrix.JPG"
+        },
+        "link": "https://aravindrk7.github.io/tetrix/",
+        "gitLink": "https://github.com/aravindrk7/tetrix",
+        "likes": 0
+    },
+    {
+        "id": 16,
+        "title": "Sliding Puzzle",
+        "category": "game",
+        "started_at": "March 22, 2018",
+        "image": {
+            "original": "/images/original/slidingPuzzle.JPG",
+            "thumbnail": "/images/game/slidingPuzzle.JPG"
+        },
+        "link": "https://aravindrk7.github.io/slidingPuzzle/",
+        "gitLink": "https://github.com/aravindrk7/slidingPuzzle",
+        "likes": 0
+    },
+    {
+        "id": 17,
+        "title": "XO Game",
+        "category": "game",
+        "started_at": "Jan 27, 2018",
+        "image": {
+            "original": "/images/original/xo.JPG",
+            "thumbnail": "/images/game/xo.JPG"
+        },
+        "link": "https://aravindrk7.github.io/xo-game/",
+        "gitLink": "https://github.com/aravindrk7/xo-game",
+        "likes": 0
     }
 ]

@@ -24,7 +24,7 @@ function Works() {
                             <img className="works__myWorkImage" src={process.env.PUBLIC_URL + work.image.thumbnail} alt={work.title} />
                         </div>
                         <div className="works__myWorkImageHover">
-                            {work.category === 'Web Development'
+                            {work.category === 'Web Development' || work.category === 'game'
                                 && <>
                                     <a href={work.link} target="blank" className="works__myWorkImageHoverContent">
                                         <FiExternalLink className="works__icon" onClick={() => openWebsite(work.link)} />
@@ -50,7 +50,9 @@ function Works() {
                                     <img
                                         src={work.category === 'Photoshop'
                                             ? process.env.PUBLIC_URL + "/images/photoshop-logo.svg"
-                                            : process.env.PUBLIC_URL + "/images/web.png"}
+                                            : (work.category === 'game'
+                                                ? process.env.PUBLIC_URL + "/images/game.jpg"
+                                                : process.env.PUBLIC_URL + "/images/web.png")}
                                         alt="" />
                                     <span>{work.category}</span>
                                 </div>
