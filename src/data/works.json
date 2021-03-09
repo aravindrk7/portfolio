@@ -154,7 +154,7 @@
         "started_at": "November 4, 2017",
         "image": {
             "original": "/images/original/minesweeper.JPG",
-            "thumbnail": "/images/game/minesweeper.PNG"
+            "thumbnail": "/images/game/minesweeper.png"
         },
         "link": "https://aravindrk7.github.io/Mine-Sweeper/",
         "gitLink": "https://github.com/aravindrk7/Mine-Sweeper",
@@ -167,7 +167,7 @@
         "started_at": "December 23, 2017",
         "image": {
             "original": "/images/original/snake.JPG",
-            "thumbnail": "/images/game/snake.PNG"
+            "thumbnail": "/images/game/snake.png"
         },
         "link": "https://aravindrk7.github.io/Snake-Game/",
         "gitLink": "https://github.com/aravindrk7/Snake-Game",
@@ -180,7 +180,7 @@
         "started_at": "August 5, 2018",
         "image": {
             "original": "/images/original/tetrix.JPG",
-            "thumbnail": "/images/game/tetrix.JPG"
+            "thumbnail": "/images/game/tetrix.jpg"
         },
         "link": "https://aravindrk7.github.io/tetrix/",
         "gitLink": "https://github.com/aravindrk7/tetrix",
@@ -206,7 +206,7 @@
         "started_at": "Jan 27, 2018",
         "image": {
             "original": "/images/original/xo.JPG",
-            "thumbnail": "/images/game/xo.JPG"
+            "thumbnail": "/images/game/xo.jpg"
         },
         "link": "https://aravindrk7.github.io/xo-game/",
         "gitLink": "https://github.com/aravindrk7/xo-game",

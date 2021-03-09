@@ -39,7 +39,7 @@
 .intro > div {
     font-size: 45px;
     font-family: poppins-bold;
-    margin-top: -5px;
+    /* margin-top: -5px; */
 }
 .intro > div span {
     font-family: poppins-bold;

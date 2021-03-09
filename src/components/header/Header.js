@@ -5,6 +5,7 @@ import './Header.css';
 import Navbar from './Navbar';
 import { FiMenu } from "react-icons/fi";
 import SideMenu from '../sideMenu/SideMenu';
+import { motion } from 'framer-motion';
 
 function Header() {
     const [style, setStyle] = useState();
@@ -24,7 +25,11 @@ function Header() {
         window.addEventListener('scroll', listenScrollEvent)
     }, [])
     return (
-        <header className="header" style={style}>
+        <motion.header
+            initial={{ opacity: 0 }}
+            animate={{ opacity: 1 }}
+            transition={{ duration: 1 }}
+            className="header" style={style}>
             <Logo />
             <Navbar />
             <Connect />
@@ -36,7 +41,7 @@ function Header() {
                     <SideMenu close={setShowSideMenu} />
                 }
             </div>
-        </header>
+        </motion.header>
     )
 }
 

@@ -1,15 +1,43 @@
-import React from 'react';
+import React, { useEffect } from 'react';
+import { motion, useAnimation } from 'framer-motion';
+import { useInView } from 'react-intersection-observer';
 import './About.css';
 import Title from '../../components/title/Title';
 import Button from '../../components/button/Button';
 
 function About() {
+    const controls = useAnimation();
+    const { ref, inView } = useInView();
+    useEffect(() => {
+        if (inView) {
+            controls.start('visible');
+        }
+        if (!inView) {
+            controls.start('hidden');
+        }
+    }, [controls, inView]);
+    const textVariants = {
+        hidden: { opacity: 0 },
+        visible: {
+            opacity: 1,
+            transition: {
+                delay: .1, duration: 1,
+            }
+        }
+    }
     return (
-        <section className="about" >
+        <section
+
+            className="about" >
             <div className="titleContainer">
                 <Title title="About Me" />
             </div>
-            <section className="about__content">
+            <motion.section
+                ref={ref}
+                initial="hidden"
+                animate={controls}
+                variants={textVariants}
+                className="about__content">
                 <p className="about__text-top">
                     I am a Fullstack developer with a lot of experience
                     designing and developing responsive and
@@ -26,7 +54,7 @@ function About() {
                         <Button text="Download Resume" />
                     </a>
                 </div>
-            </section>
+            </motion.section>
         </section>
     )
 }

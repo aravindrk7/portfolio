@@ -1,4 +1,6 @@
-import React, { useState } from 'react';
+import React, { useState, useEffect } from 'react';
+import { motion, useAnimation } from 'framer-motion';
+import { useInView } from 'react-intersection-observer';
 import Title from '../../components/title/Title';
 import './Contact.css';
 import { FiHome } from "react-icons/fi";
@@ -7,6 +9,36 @@ import { FiMail } from "react-icons/fi";
 import Button from './../../components/button/Button';
 
 function Contact() {
+    const controls = useAnimation();
+    const { ref, inView } = useInView();
+    useEffect(() => {
+        if (inView) {
+            controls.start('visible');
+        }
+        if (!inView) {
+            controls.start('hidden');
+        }
+    }, [controls, inView]);
+    const inputVariants = {
+        hidden: { y: 20, opacity: 0 },
+        visible: {
+            y: 0,
+            opacity: 1,
+            transition: {
+                delay: .7, duration: 3, type: 'spring', stiffness: 120
+            }
+        }
+    }
+    const detailsVariants = {
+        hidden: { x: 100, opacity: 0 },
+        visible: {
+            x: 0,
+            opacity: 1,
+            transition: {
+                delay: .7, duration: 3, type: 'spring', stiffness: 120
+            }
+        }
+    }
     const [formData, setFormData] = useState({
         email: '',
         password: ''
@@ -43,7 +75,12 @@ function Contact() {
                 <Title title="Contact" />
             </div>
             <section className="contact__content">
-                <form className="contact__form" onSubmit={handleSubmit}>
+                <motion.form
+                    ref={ref}
+                    initial="hidden"
+                    animate={controls}
+                    variants={inputVariants}
+                    className="contact__form" onSubmit={handleSubmit}>
 
                     <div className="contact__field">
                         <label htmlFor="email" className="contact__label">Name</label>
@@ -62,8 +99,13 @@ function Contact() {
                     <div className="contact__btnContainer">
                         <Button text='Send Message' />
                     </div>
-                </form>
-                <div className="contact__details">
+                </motion.form>
+                <motion.div
+                    ref={ref}
+                    initial="hidden"
+                    animate={controls}
+                    variants={detailsVariants}
+                    className="contact__details">
                     <div>
                         <div className="contact__icon">
                             <FiHome />
@@ -91,7 +133,7 @@ function Contact() {
                             <span>Send me your query anytime</span>
                         </div>
                     </div>
-                </div>
+                </motion.div>
             </section>
         </section>
     )
